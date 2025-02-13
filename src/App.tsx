@@ -24,10 +24,10 @@ const generalConfig = {
 
 const shyftWalelt :CustomWallet ={
   id: 'shyft',
-  name: 'Shyft',
+  name: 'Shyft Wallet',
   homepage: 'https://shyft.tech',
-  image_url: 'https://app.shyft.tech/assets/logo-Diy9pPmQ.png',
-  webapp_link: 'http://localhost:5173',
+  image_url: 'https://s3.us-east-1.amazonaws.com/asset.shyft.tech/shyft-logo-back-128.png',
+  webapp_link: 'https://dev.shyft-wallet-web.pages.dev/',
 }
 
 // Create modal
