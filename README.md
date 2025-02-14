@@ -1,4 +1,4 @@
-# Reown AppKit Example using wagmi (Vite + React)
+# Reown AppKit Example using wagmi (Vite + React) + Shyft Wallet
 
 This is a [Vite](https://vitejs.dev) project together with React.
 
