@@ -27,7 +27,7 @@ const shyftWalelt :CustomWallet ={
   name: 'Shyft Wallet',
   homepage: 'https://shyft.tech',
   image_url: 'https://s3.us-east-1.amazonaws.com/asset.shyft.tech/shyft-logo-back-128.png',
-  webapp_link: 'https://dev.shyft-wallet-web.pages.dev/', // TODO: change to production
+  webapp_link: import.meta.env.VITE_SHYFT_WALLET_URL,
 }
 
 // Create modal
