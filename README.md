@@ -55,6 +55,37 @@ This is a [Vite](https://vitejs.dev) project together with React.
    })
    ```
 
+   After you have configured the Shyft Wallet, the Shyft Wallet will be shown in the wallet list. User can connect to your app using the wallet.
+
+3. Request sign message
+```typescript
+import { signMessageAsync } from 'wagmi'
+
+const { signMessageAsync } = useSignMessage() // Wagmi hook to sign a message
+
+const msg = "Hello Reown AppKit!" // message to sign
+const sig = await signMessageAsync({ message: msg, account: address as Address }); 
+
+
+```
+4. Request send transaction
+
+```typescript
+import {  useSendTransaction } from 'wagmi'
+const { data: hash, sendTransaction, } = useSendTransaction(); // Wagmi hook to send a transaction
+
+const handleSendTx = () => {
+      try {
+        sendTransaction({
+          ...transaction,
+        });
+      } catch (err) {
+        console.log('Error sending transaction:', err);
+      }
+    }
+```
+
+
 ## Resources
 
 - [Reown — Docs](https://docs.reown.com)
