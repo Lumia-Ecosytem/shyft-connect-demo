@@ -37,7 +37,7 @@ This is a [Vite](https://vitejs.dev) project together with React.
      name: 'Shyft Wallet',
      homepage: 'https://shyft.tech',
      image_url: 'https://s3.us-east-1.amazonaws.com/asset.shyft.tech/shyft-logo-back-128.png',
-     webapp_link: 'https://app.shift.tech',
+     webapp_link: 'https://app.shyft.tech',
    }
 
    createAppKit({
